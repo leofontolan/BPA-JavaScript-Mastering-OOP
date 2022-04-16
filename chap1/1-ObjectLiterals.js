@@ -36,3 +36,19 @@ var name = person.age;
 // podemos criar a propriedade com o valor que estamos tentando atribuir.
 person.age = "28";
 
+
+// O JavaScript é dinâmico, ou seja, podemos criar propriedades e valores
+// de qualquer tipo.
+
+var person = {}
+person.name = "John";
+person.surname = "Smith";
+person.address = {
+    street: "13 Duncannon Street",
+    city: "London",
+    country: "United Kingdom"
+};
+person.age = "28";
+
+// Também podemos destruir propriedades de um objeto em tempo de execução
+delete person.address;
