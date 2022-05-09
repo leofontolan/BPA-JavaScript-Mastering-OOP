@@ -1,4 +1,5 @@
 function Person(name , surname){
+    "use strict";
     this.name = name;
     this.surname = surname;
     this.address = "";
@@ -17,5 +18,5 @@ console.log(johnSmith.displayFullName());
 
 
 
-var person = Person("John", "Smith");
-console.log(global);
+// var person = Person("John", "Smith");
+// console.log(global);
